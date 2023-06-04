@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>21b53e57-6444-4b14-b726-0ede58c37c6b</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.18.1" />
+    <PackageReference Include="Senparc.Weixin.AspNet" Version="0.8.6" />
+    <PackageReference Include="Senparc.Weixin.Work" Version="3.15.18.1" />
+    <PackageReference Include="Senparc.Weixin.Work.Middleware" Version="0.8.6" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\chatu-net-sdk\src\ChatUAISDK\ChatUAISDK.csproj" />
+  </ItemGroup>
+
+</Project>
