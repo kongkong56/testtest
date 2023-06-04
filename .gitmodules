@@ -1,0 +1,3 @@
+[submodule "chatu-net-sdk"]
+	path = chatu-net-sdk
+	url = https://github.com/chatu-ai/chatu-net-sdk.git
